@@ -43,6 +43,11 @@ const App =()=>{
 
     return (
         <main className="whole_set">
+            <header className="header">
+
+                <h1 className=" text-xl font-bold mt-4 header_title">Family Tree <span className="text-gradient">Add your Loved Ones For Infinity</span></h1>
+
+            </header>
             <div className="container">
                 <nav className="nav">
                     <div className="logo">
@@ -50,15 +55,6 @@ const App =()=>{
                     </div>
 
                 </nav>
-
-
-                <header className="header">
-
-                    <h1 className="header_title">Family Tree <span className="text-gradient">Add your Loved Ones For Infinity</span></h1>
-
-                </header>
-
-
 
                 <section className="content-mem">
                     <h2>Add Your Loved Ones Here</h2>
@@ -109,7 +105,7 @@ const App =()=>{
 
                 <section className="content-all">
                     <div className="all-members">
-                        <h3 className="text-gradient">See Your Family members Here</h3>
+                        <h3 className="text-gradient font-bold mt-20">See Your Family members Here</h3>
                         <FamilyMember members={Members} />
 
                     </div>
