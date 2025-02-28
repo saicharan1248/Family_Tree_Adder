@@ -35,11 +35,6 @@ const App =()=>{
         })}
 
     }
-// get data and map them
-// make a relation to the given male and female data
-// pass the data to the member comp as props
-
-
 
     return (
         <main className="whole_set">
